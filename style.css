@@ -1,0 +1,105 @@
+/* background for page */
+body{
+    background-image:url(https://www.invaluable.com/blog/wp-content/uploads/2017/06/Invaluable-British-Landscapes-Turner-Hero.jpg);
+    font-family:'noto sans';
+}
+/* background for heading, also text alignment */
+header{
+    background-image:url(https://imagecache.artlookonline.com/image/slide/1784/groupings/extras/63938/FS_63938_0002.JPG);
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-bottom: 7px;
+    padding-top:10px;
+}
+/* background for icons and index, also text alignment*/
+div{
+    background-image:url(https://www.deberes.net/wp-content/uploads/2020/08/Colour-Beginning-William-Turner.jpg?x57138);
+    text-align: center;
+    margin-right: 35%;
+    margin-left:35%;
+    padding-top: 13px;
+    padding-bottom:7px;
+}
+/* background for body of page */
+main{
+    background-image: url(https://i.pinimg.com/originals/47/0e/8c/470e8ca1413c4d01865563d6549cbc8f.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+}
+/* formatting for icons */
+.icon{
+    font-size:20px;
+    word-spacing:20px; 
+}
+/* formatting for index */
+.links{
+    font-size:15px;
+    word-spacing:20px;
+}
+/* more formatting for index */
+nav.links a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+/* formatting for body of contact page */
+#contact{
+    text-align:center;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-weight:700;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+/* formatting for bottom index */
+.footer{
+    background-image:url(https://imagecache.artlookonline.com/image/slide/1784/groupings/extras/63938/FS_63938_0002.JPG);
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    margin-right: 35%;
+    margin-left: 35%;
+    font-size: 15px;
+    word-spacing: 20px;
+    text-align:center;
+}
+/* formatting for body of biography page */
+#bio{
+    text-indent: 10px;
+    text-align:left;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight:700;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+/* background and formatting for top of body on project page */
+h3{
+    text-align:center;
+    font-size: 25px;
+    background-image:url(https://image.invaluable.com/housePhotos/mctear/04/293604/H3789-L18899012.jpg);
+    margin-right:38%;
+    margin-left:38%;
+    border-radius: 10px;
+}
+/* project page, keeps text from touching bottom of image */
+.project{
+    padding-bottom: 1px;
+}
+/* project page, list. background and formatting for items */
+ul li, ol li{
+    background-image:url(https://th.bing.com/th/id/R.8c36e1019f8dfaf32fedd82888365db2?rik=MPRhL3XwYYQtvg&riu=http%3a%2f%2fwww.abbottandholder-thelist.co.uk%2fwp-content%2fgallery%2fsale-2018-1%2fBerners-96645-8.jpg&ehk=Yw7O7GptANicAWce7vkAYRt%2fMYj0YvOd6ay%2fascCiOU%3d&risl=&pid=ImgRaw&r=0);
+    margin-right: 85%;
+    font-size: 20px;
+    font-weight:500;
+}
+/* project page, list. background and formatting for items when hovering */
+ul li:hover, ol li:hover{
+    background-image:url(https://th.bing.com/th/id/R.d6399608b60ec6ff3f9e4f6bafe00103?rik=c9HrdogkGY5eqw&riu=http%3a%2f%2fwww.conniesmithsiegel.com%2fwp-content%2fgallery%2fhills-and-forest%2fnicassio.jpg&ehk=xVmjelDo37iWwcfTTZqV%2bWS8L7YG1zPVgJkODRn5R48%3d&risl=&pid=ImgRaw&r=0);
+    font-weight: 700;
+}
